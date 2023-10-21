@@ -80,14 +80,14 @@
   width: 290px; 
   height: 200px; 
   background-color: green;
-  margin-left: -30px;
+  margin-left: -32px;
  
 } 
 .yellow3 {
   width: 290px; 
   height: 200px; 
   background-color: gold; 
-  margin-right: -30px
+  margin-right: -32px
 } 
 .blue3 {
   width: 100%; 
@@ -143,13 +143,15 @@
   width: 150px; 
   height: 150px; 
   background-color: green; 
+  position: relative;
+  left: 0px;
 } 
 .yellow5 {
   width: 100%; 
   height: 300px; 
   background-color: gold; 
   margin-top:-150px;
-  margin-left: 150px;
+  margin-left: 0px;
 } 
 .blue5 {
   width: 100%; 
@@ -173,7 +175,8 @@
   width: 200px; 
   height: 200px; 
   background-color: green;
-  margin-top: 200px; 
+  margin-top: 200px;
+  position: relative; 
 } 
 .yellow6 {
   width: 200px; 
@@ -181,6 +184,7 @@
   background-color: gold; 
   margin-left: 400px;
   margin-top: -400px;
+  position: relative;
 } 
 .blue6 {
   width: 400px; 
